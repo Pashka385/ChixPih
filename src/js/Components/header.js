@@ -100,16 +100,16 @@ function MouseCorder(e) {
     updateCursor();
 }
 
-function updateCursor() {
-    cursor.style.left = (MouseX / 23) + "px";
-    cursor.style.top = (MouseY/23) + "px";
-}
+// function updateCursor() {
+//     cursor.style.left = (MouseX / 23) + "px";
+//     cursor.style.top = (MouseY/23) + "px";
+// }
 
-document.addEventListener("mousemove", () => {
-    MouseCorder();
-    aura.classList.add("active"); // Add "active" class when the mouse moves
-});
+// document.addEventListener("mousemove", () => {
+//     MouseCorder();
+//     aura.classList.add("active"); // Add "active" class when the mouse moves
+// });
 
-document.addEventListener("dblclick", () => {
-    cursor.classList.add("active1"); // Remove "active" class when the mouse moves out of the document
-});
+// document.addEventListener("dblclick", () => {
+//     cursor.classList.add("active1"); // Remove "active" class when the mouse moves out of the document
+// });

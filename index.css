@@ -14,36 +14,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: none;
 }
-#cursor,#aura{
-    position: absolute;
-    border-radius: 100%;
-    transition: .5s cubic-bezier(.75,-1.27,.3,2.33) transform .2s cubic-bezier(.75,-1.27,.3,2.33) opacity;
-    user-select: none;
-    pointer-events: none;
-}
-#cursor{
-    width: 8px;
-    height: 8px;
-    background-color: #ffffffa5;
-    z-index: 1000000;
-    position: absolute;
-}
-#aura{
-    height: 46px;
-    width: 46px;
-    background-color: #8e8c8c4a;
-    border: solid 2px rgba(249, 249, 249, 0.793);
-    transform: translate(5px,5px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    transition: all ease-in-out 0.1s;
-}
-#aura.active{
-    box-shadow: 0 0 5px 5px rgb(132, 22, 166);
-    transition: all ease-in-out 0.1s;
-}
+
 
